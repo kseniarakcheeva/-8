@@ -1,10 +1,12 @@
-#include <std.h>
+
+#include <stdio.h>
+#include "std.h"
 
 int main()
 {
 	int a,b;
 	
-	printf("введите два  числа ");
+	printf("Input two numbers ");
     scanf("%d%d",&a,&b);
 	
 	return 0;
